@@ -1,0 +1,168 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color:white;
+    width: 100%;
+    height: 130px;
+    display: flex;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.head ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 70px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    height: 33px;
+    width: 40px;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    margin: 0px 8px;
+   margin-left: 60px;
+}
+.brands{
+    width: 40px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 90px;
+    font-size: 1rem;
+    display: flex;
+}
+.fa-brands{
+    padding: 8PX;
+}
+
+.but{
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+button{
+    background-color:rgb(102,178,178);
+    color: white;
+    font-size: 1rem;
+    height: 40px;
+    width: 150px;
+    border-radius: 60px;
+    border: none;
+}
+/**body 1**/
+.banner-card{
+    position: relative;
+}
+.banner-card video{
+    max-height: 100%;
+    height: auto;
+    width: 100%;
+}
+.banner-text{
+    position: absolute;
+    top: 30%;
+    color: white;
+    padding: 20px;
+    margin-left: 120px;
+    justify-content: space-between;
+    font-size:40px ;
+   
+}
+.banner-text h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: 5px; 
+}
+/**body-2**/
+.background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+}
+.sec-1{
+    background-image: url("images/bg image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 100vh; */
+    height: auto;
+    margin-top: 850px;
+}
+.sec-1 h1{
+    color: black;
+    font-family:"DM Sans", sans-serif ;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 70px;
+   text-transform: capitalize;
+    
+}
+.flex-container{
+ display: flex;
+    margin-top: 10px;
+   height: auto; 
+   width: 100%;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+.flex-container>div{
+    width: 220px;
+    height: 170px;
+}
+img{
+    border-radius: 10px;
+    width: 220px;
+    height: 170px;
+}
+.box{
+ padding: 10px;
+ height: 200;
+ width: 100px;
+ padding: 20px;
+ margin: 60px;
+ justify-content: space-evenly;
+}
+p{
+    font-family:"DM Sans", sans-serif ;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
